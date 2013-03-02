@@ -28,6 +28,11 @@ gem 'devise'
 gem 'cancan' 
 gem 'fastercsv'
 gem 'rails_admin'
+gem 'unicorn'
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-unicorn', :require => false
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
