@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------------------
 
 # Set your full path to application.
-app_path=File.dirname(File.dirname(File.dirname(File.expand_path(__FILE__))))
+app_path="/u/apps/yingjie"
 rails_env = ENV["RAILS_ENV"] || "production"
 
 # Set unicorn options
