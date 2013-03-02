@@ -4,7 +4,7 @@
 
 # Set your full path to application.
 app_path="/u/apps/yingjie"
-rails_env = ENV["RAILS_ENV"] || "production"
+rails_env = "production"
 
 # Set unicorn options
 worker_processes 2
